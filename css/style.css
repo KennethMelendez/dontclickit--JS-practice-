@@ -1,0 +1,50 @@
+button {
+    width:100px;
+    height:100px;
+    border-radius:4rem;
+    background-color:transparent;
+    outline:none;
+    border:none;
+    position:relative;
+}
+
+
+div{
+  border:1rem double white;
+/*   border-radius:20rem; */
+  position:absolute;
+  top:35%;
+  right:35%;
+}
+
+button:hover {
+/*   background-color:red; */
+  transition:3s;
+  transform:translate(-1px,-3px);
+  cursor:pointer;
+}
+
+div:active {
+  background:lightblue;
+}
+
+
+.bg.bg-spawn{
+  background:url('https://www.geek.com/wp-content/uploads/2017/04/Alien_Covenant-e1491241541256.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+/*   transition:1s; */
+  background-color:black;
+  transition:4s;
+}
+
+.bg{
+  background-color:black;
+}
+
+body{
+  background-color:black;
+  transition:1s;
+
+}
